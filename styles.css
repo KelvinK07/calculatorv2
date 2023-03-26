@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body h1{
+    font-size: 20pt;
+    margin-bottom: 35px;
+
+    color: white;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(135, 145, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+
+}
+.base{
+    width: 22vw;
+    height: 70vh;
+    background-color: rgb(213, 223, 213);
+    border-radius: 20pt;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.screen{
+    width: 19vw;
+    height: 22vh;
+    background-color: rgb(201, 209, 207);
+    vertical-align: middle;
+    font-size: 40pt;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.screen p{
+    line-height: 22vh;
+    vertical-align: middle;
+    text-align: right;
+}
+.buttonplace{
+    width: 24vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.row{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.longbutton{
+    background-color:rgb(228, 228, 228);
+    border-radius: 50pt;
+    width: 8.5vw;
+    height: 3.5vw;
+    margin: 0pt 8pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20pt;
+    color: rgb(0, 0, 0);
+}
+.button{
+    background-color: rgb(228, 228, 228);
+    border-radius: 50pt;
+    width: 3.5vw;
+    height: 3.5vw;
+    margin: 0pt 8pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20pt;
+    color: rgb(0, 0, 0);
+    
+}
+.buttong{
+    background-color: rgb(228, 228, 228);
+    border-radius: 50pt;
+    width: 3.5vw;
+    height: 3.5vw;
+    margin: 0pt 8pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20pt;
+    transition: 0.3s;
+    color: #68B31A;
+}
+.buttongc{
+    background-color: rgb(228, 228, 228);
+    border-radius: 50pt;
+    width: 3.5vw;
+    height: 3.5vw;
+    margin: 0pt 8pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20pt;
+    transition: 0.3s;
+    color: #ff0000;
+}
+.buttony{
+    background-color: rgb(228, 228, 228);
+    border-radius: 50pt;
+    width: 3.5vw;
+    height: 3.5vw;
+    margin: 0pt 8pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20pt;
+    color: #68B31A;
+    transition: 0.3s;
+}
+.buttonye{
+    background-color: #68B31A;
+    border-radius: 50pt;
+    width: 3.5vw;
+    height: 3.5vw;
+    margin: 0pt 8pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20pt;
+    color: rgb(228, 228, 228);
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: rgb(97, 97, 97);
+    cursor: pointer;
+
+}
+.longbutton:hover{
+    background-color: rgb(97, 97, 97);
+    cursor: pointer;
+}
+.buttony:hover{
+    background-color: #68B31A;
+    color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.buttonye:hover{
+    background-color: rgb(228, 228, 228);
+    color: #68B31A;
+    cursor: pointer;
+}
+.buttong:hover{
+    color: rgb(228, 228, 228);
+    background-color: #68B31A;
+    cursor: pointer;
+}
+.buttongc:hover{
+    color: rgb(228, 228, 228);
+    background-color: #68B31A;
+    cursor: pointer;
+}

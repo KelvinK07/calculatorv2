@@ -182,7 +182,12 @@ body{
 /*-----------------------------------------------------------------------*/
 
 @media screen and (max-width:480px){
-
+    body h1{
+        font-size: 15pt;
+        margin-bottom: 10px;
+    
+        color: white;
+    }
 
     .base{
         width: 90vw;
@@ -226,25 +231,26 @@ body{
         width: 15vw;
         height: 15vw;
         margin: 0pt 0pt;
-        font-size: 5vw;
+        font-size: 6vw;
     }
     .buttongc{
         width: 15vw;
         height: 15vw;
         margin: 0pt 0pt;
-        font-size: 5vw;
+        font-size: 6vw;
+        font-weight: 400;
     }
     .buttony{
         width: 15vw;
         height: 15vw;
         margin: 0pt 0pt;
-        font-size: 5vw;
+        font-size: 6vw;
     }
     .buttonye{
         width: 15vw;
         height: 15vw;
         margin: 0pt 0pt;
-        font-size: 5vw;
+        font-size: 6vw;
     }
     
 

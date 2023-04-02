@@ -58,6 +58,7 @@ const percentage = () =>{
         let input = eval(result.innerHTML);
         input += "/100"
         result.innerHTML = eval(input)
+        commaAvailable = false;
     }
 }
 //Equal Function
